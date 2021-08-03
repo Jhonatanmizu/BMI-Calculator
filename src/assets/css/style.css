@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  outline: 0;
+  
+}
+:root{
+  --bg-color:#6d6875;
+  --container-bg:#b5838d;
+  --primary-color:antiquewhite;
+  --secondary-color:black;
+  --hover-color: #ffb4a2;
+  --outline:#ffcdb2;
+  --sucess:rgb(141, 253, 141);
+  --warning: rgb(243, 72, 106);
+}
+body{
+background-color: var(--bg-color);
+font-family: 'Oswald', sans-serif;
+}
+h1{
+  font-size: 4rem;
+  padding-bottom: 2rem ;
+  font-weight: 700;
+}
+p{
+  text-align: justify;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.container{
+  margin:2rem auto;
+  /* margin-top: 10rem; */
+  align-items: center;
+  max-width: 64rem;
+  font-size: 2.6rem;
+  background-color:var(--container-bg) ;
+  color: var(--primary-color);
+  border-radius: 1rem 0 1rem 1rem;
+  padding: 2rem;
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+/*  */
+label{
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--bg-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 2.6rem;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius: 1rem 0 1rem 1rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+form button:hover {
+  background: var(--hover-color);
+}
+.resultado{
+  font-size:  4rem;
+
+}
+.p-resultado{
+text-align: center;
+font-weight: 700;
+background-color:  var(--sucess);
+color: var(--secondary-color);
+border-radius: 1rem 0 1rem 1rem;
+}
+.warning{
+text-align: center;
+font-weight: 700;
+background-color:  var(--warning);
+color: var(--secondary-color);
+border-radius: 1rem 0 1rem 1rem;
+}
+@media (max-width:37.5rem) {
+  .container{
+    max-width: 30rem;
+  }
+  
+}
