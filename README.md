@@ -1,19 +1,20 @@
-<h1>BMI Calculator Or IMC Calculator</h1> 
+<h1>BMI Calculator Or IMC Calculator🖩</h1> 
 </br>
 <h2>
-Calculator
+Calculator🖩
 <h2>
+
 
 <span>Technologies used in project:<span>
 <p>
--HTML;
+✔HTML;
 
--CSS;
+✔CSS;
 
--Javascript;
+✔Javascript;
 </p>
 
-<h3>Explanation:</h3>
+<h2>Explanation:</h2>
 
 <p>
 -Use this for calc your BMI or IMC level;
@@ -21,6 +22,6 @@ Calculator
 </p>
 
 
-<span>Screenshots<span>
+<span>Screenshots:<span>
 
 ![](./.github/main.png)
