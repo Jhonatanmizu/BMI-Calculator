@@ -18,7 +18,7 @@ Calculator🖩
 
 <p>
 -Use this for calc your BMI or IMC level;
-
+-Link: https://imccalculator-jhonatanmizu.netlify.app/
 </p>
 
 
